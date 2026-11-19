@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+.env*
+.vercel
+
+# Raw source material and private CVs (the site uses optimized copies in public/)
+/info/
+/*.pdf
+
+# Local Claude Code tooling
+/.claude/

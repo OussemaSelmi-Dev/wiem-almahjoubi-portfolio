@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-nb-bg: #0f0d0e;
+  --color-nb-card: #191617;
+  --color-nb-card2: #231f20;
+  --color-nb-line: #2f2a2b;
+  --color-nb-text: #f5f0eb;
+  --color-nb-muted: #aaa29d;
+  --color-nb-accent: #c8384f; /* coral pink: fills, with white text */
+  --color-nb-accent-deep: #9f2338;
+  --color-nb-pink: #f07a8e; /* lighter coral for accent text on the dark background */
+  --color-nb-rose: #f4b8c1;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-grotesk: var(--ff-bricolage), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--color-nb-bg);
+  color: var(--color-nb-text);
+}
+
+::selection {
+  background: var(--color-nb-accent);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-nb-pink);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
