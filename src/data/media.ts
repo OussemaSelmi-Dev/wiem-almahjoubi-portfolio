@@ -18,17 +18,6 @@ export const media = {
     {src: "/work/ultima-social/13.webp", w: 1080, h: 1350, alt: "Vote for Ultima Markets awards post"},
     {src: "/work/ultima-social/14.webp", w: 1600, h: 900, alt: "“We are hiring” recruitment visual"},
   ],
-  "ultima-strategy": [
-    {src: "/work/ultima-strategy/01.webp", w: 1600, h: 900, alt: "Marketing Analysis deck, cover"},
-    {src: "/work/ultima-strategy/02.webp", w: 1600, h: 900, alt: "Channel segmentation analysis"},
-    {src: "/work/ultima-strategy/03.webp", w: 1600, h: 900, alt: "Trader tools preference analysis"},
-    {src: "/work/ultima-strategy/04.webp", w: 1600, h: 900, alt: "“Newton’s Cradle” strategy concept"},
-    {src: "/work/ultima-strategy/05.webp", w: 1600, h: 900, alt: "Short-term strategy plan"},
-    {src: "/work/ultima-strategy/06.webp", w: 1600, h: 900, alt: "GCC competitive benchmark, cover"},
-    {src: "/work/ultima-strategy/07.webp", w: 1600, h: 900, alt: "Ultima Markets SWOT"},
-    {src: "/work/ultima-strategy/08.webp", w: 1600, h: 900, alt: "International competitors comparison"},
-    {src: "/work/ultima-strategy/09.webp", w: 1600, h: 900, alt: "Benchmark conclusion"},
-  ],
   "ouva": [
     {src: "/work/ouva/01.webp", w: 1600, h: 1600, alt: "Ouva sponsored launch post"},
     {src: "/work/ouva/02.webp", w: 1520, h: 1600, alt: "Ouva Delivery logo"},

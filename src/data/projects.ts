@@ -62,19 +62,6 @@ export const projects: Project[] = [
     images: media.tresemme,
   },
   {
-    slug: "ultima-strategy",
-    title: "Market analysis & GCC benchmark",
-    client: "Ultima Markets",
-    context: "Marketing Manager",
-    year: "2024 - 2025",
-    category: "Strategy & research",
-    summary:
-      "The research behind the regional expansion: a global market and channel analysis, then a country-by-country competitive benchmark of brokers across the GCC, Egypt and Levant, with SWOTs and recommendations.",
-    deliverables: ["Market overview", "Competitor SWOTs", "Channel strategy", "Short & long-term plans"],
-    featured: true,
-    images: media["ultima-strategy"],
-  },
-  {
     slug: "dove",
     title: "Dove in Tunisia",
     client: "Unilever Uniway",
