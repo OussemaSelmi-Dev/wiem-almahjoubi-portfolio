@@ -10,6 +10,9 @@ import { useProjectViewer } from "./ProjectViewer";
 
 // Bento: a dark, tile-based portfolio. Content lives in src/data.
 
+const countWords = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"];
+const countWord = (n: number) => countWords[n] ?? String(n);
+
 const tile = "rounded-3xl border border-nb-line bg-nb-card";
 const eyebrow = "text-xs font-medium uppercase tracking-[0.18em] text-nb-muted";
 
@@ -115,16 +118,17 @@ function Hero() {
         className="relative col-span-2 min-h-[380px] overflow-hidden !border-transparent !bg-nb-accent md:col-span-6 lg:col-span-5 lg:row-span-2"
       >
         <div aria-hidden className="absolute -right-16 -top-16 size-72 rounded-full bg-nb-rose/35 blur-2xl" />
-        <p className="absolute left-7 top-7 max-w-[12rem] font-grotesk text-2xl font-semibold leading-tight text-white">
+        <p className="absolute left-7 top-7 max-w-[12rem] font-grotesk text-xl font-semibold leading-tight text-white sm:text-2xl">
           {profile.focus}
         </p>
         <Image
-          src="/wiem.png"
-          width={320}
-          height={320}
+          src="/wiem.webp"
+          width={585}
+          height={900}
+          sizes="300px"
           alt={`Portrait of ${profile.name}`}
           preload
-          className="absolute bottom-0 left-1/2 w-[280px] -translate-x-1/2 sm:w-[320px]"
+          className="absolute bottom-0 right-0 h-[80%] w-auto sm:right-6 sm:h-[88%]"
         />
       </Tile>
 
@@ -157,7 +161,7 @@ function Hero() {
         <Globe2 className="size-6 text-nb-pink" aria-hidden />
         <div className="mt-6">
           <p className="font-grotesk text-3xl font-semibold tracking-tight">GCC & MENA</p>
-          <p className="mt-1 text-sm text-nb-muted">Expansion & localized marketing, most recently at {profile.current}</p>
+          <p className="mt-1 text-sm text-nb-muted">Expansion & localized marketing, currently at {profile.current}</p>
         </div>
       </Tile>
     </section>
@@ -251,7 +255,7 @@ function Experience() {
     <section aria-labelledby="experience-title">
       <div id="experience" className="scroll-mt-24" />
       <SectionTitle id="experience-title" kicker="Experience">
-        Six chapters, one thread.
+        {countWord(experience.length)} chapters, one thread.
       </SectionTitle>
       <div className="grid gap-3 lg:grid-cols-12">
         <ol className="space-y-3 lg:col-span-8">

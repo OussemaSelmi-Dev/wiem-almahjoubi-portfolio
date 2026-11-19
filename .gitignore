@@ -12,3 +12,6 @@ next-env.d.ts
 
 # Local Claude Code tooling
 /.claude/
+
+# Original portrait (optimized copy is public/wiem.webp)
+/wiem picture.png

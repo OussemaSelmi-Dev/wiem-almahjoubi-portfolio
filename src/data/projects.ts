@@ -26,7 +26,7 @@ export const projects: Project[] = [
     title: "Arabic content for a global broker",
     client: "Ultima Markets",
     context: "Marketing Manager",
-    year: "2024 — 2026",
+    year: "2024 - 2026",
     category: "Brand & social",
     summary:
       "Localized educational, promotional and technical content for Arabic-speaking traders across GCC and MENA: weekly carousels on trading concepts, market-moving events like FOMC, sponsorship news and award campaigns.",
@@ -36,7 +36,7 @@ export const projects: Project[] = [
   },
   {
     slug: "ouva",
-    title: "Ouva Delivery — a brand from scratch",
+    title: "Building the Ouva Delivery brand",
     client: "Ouva Delivery",
     context: "Freelance · Brand & community",
     year: "2022",
@@ -49,7 +49,7 @@ export const projects: Project[] = [
   },
   {
     slug: "tresemme",
-    title: "TRESemmé — “New Era”",
+    title: "TRESemmé “New Era”",
     client: "Unilever Uniway",
     context: "International competition · HIPYs team",
     year: "2023",
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     summary:
       "A repositioning proposal for TRESemmé: the Botanique+ range built around green caviar, refill packaging, a Gen-Z persona, a TikTok-first content strategy and a full pricing and route-to-market plan.",
     deliverables: ["Brand proposition", "Product & packaging concept", "Communication plan", "Pricing model"],
-    highlight: "Finalist — Uniway International, Egypt 2023",
+    highlight: "Uniway International finalist, Egypt 2023",
     featured: true,
     images: media.tresemme,
   },
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     title: "Market analysis & GCC benchmark",
     client: "Ultima Markets",
     context: "Marketing Manager",
-    year: "2024 — 2025",
+    year: "2024 - 2025",
     category: "Strategy & research",
     summary:
       "The research behind the regional expansion: a global market and channel analysis, then a country-by-country competitive benchmark of brokers across the GCC, Egypt and Levant, with SWOTs and recommendations.",
@@ -124,10 +124,10 @@ export const projects: Project[] = [
   },
   {
     slug: "klink",
-    title: "Klink — artist booking platform",
+    title: "Klink artist booking platform",
     client: "Klink",
     context: "Freelance · Community manager",
-    year: "2020 — 2021",
+    year: "2020",
     category: "Brand & social",
     summary:
       "Social content for Tunisia's first artistic booking platform: talent calls, brand values, market facts and advice for artists.",
@@ -144,7 +144,7 @@ export const projects: Project[] = [
     summary:
       "Food waste as a currency: households trade their food waste for organic fruit and vegetables. Identity and brochure for the idea that won first prize.",
     deliverables: ["Logo", "Brochure"],
-    highlight: "1st prize — Hult Prize, Dec 2020",
+    highlight: "1st prize at the Hult Prize, Dec 2020",
     images: media.moona,
   },
   {

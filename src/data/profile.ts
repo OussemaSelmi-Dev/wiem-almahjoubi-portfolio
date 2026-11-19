@@ -1,6 +1,6 @@
 import { Handshake, Megaphone, Presentation, SearchCheck, type LucideIcon } from "lucide-react";
 
-// All content comes from Wiem's CVs (marketing + project manager, 2026) — edit here, not in the components.
+// All content comes from Wiem's CVs (latest: public/wiem-almahjoubi-cv.pdf). Edit here, not in the components.
 
 export const profile = {
   name: "Wiem Almahjoubi",
@@ -11,7 +11,7 @@ export const profile = {
   about:
     "Marketing and project management professional driving growth through market research, partnerships, localized content and expansion strategies. I spot market opportunities, coordinate the teams behind them and turn insights into measurable results.",
   current: "Ultima Markets",
-  status: "Open to new opportunities",
+  status: "Currently at Ultima Markets",
   markets: "GCC & MENA markets",
   email: "wiem.almahjoubi@gmail.com",
   linkedin: "https://www.linkedin.com/in/wiem-almahjoubi/",
@@ -52,22 +52,23 @@ export type Role = {
 
 export const experience: Role[] = [
   {
-    period: "Dec 2024 — Jan 2026",
+    period: "Dec 2024 - Present",
     title: "Marketing Manager · Digital Marketing Specialist",
     org: "Ultima Markets",
-    summary: "Partnerships & market expansion in the Forex trading industry.",
+    summary: "Partnerships & market expansion in the Forex and crypto trading industry.",
     points: [
-      "Market, customer and competitor research across GCC and MENA to identify opportunities, needs and trends.",
-      "Evaluate and profile strategic partners — introducing brokers, affiliates, trading academies and influencers — through commercial and digital assessments.",
+      "Market, customer and competitor research across GCC and MENA to identify opportunities, needs and trends in Forex and crypto trading.",
+      "Evaluate and profile strategic partners, including introducing brokers, affiliates, trading academies and influencers, through commercial and digital assessments.",
       "Write partnership recommendation reports with SWOT analyses, communication-gap assessments and benchmarking.",
       "Led the expansion strategy into the Arab world, GCC and MENA, with localized go-to-market, social and partnership campaigns.",
-      "Owned the social content strategy and weekly plans — technical, promotional and educational Arabic content — tracking metrics to grow reach.",
+      "Execute and manage digital campaigns on Meta and other social platforms, driving audience acquisition, brand awareness and engagement across MENA and GCC.",
+      "Owned the social content strategy and weekly plans for Arabic posts, reels and financial articles (technical, promotional and educational), tracking metrics to grow reach.",
       "Coordinated remote translation, content, influencer and creative teams across regions, with tasks planned and tracked in Lark.",
     ],
-    tags: ["GCC & MENA", "Partnerships", "Go-to-market", "Localization"],
+    tags: ["GCC & MENA", "Partnerships", "Meta campaigns", "Go-to-market", "Localization"],
   },
   {
-    period: "Feb 2024 — Jun 2024",
+    period: "Feb 2024 - Jun 2024",
     title: "Business Developer (Intern)",
     org: "CodeCooperation",
     points: [
@@ -79,7 +80,18 @@ export const experience: Role[] = [
     tags: ["User research", "GTM strategy", "Scrum"],
   },
   {
-    period: "Aug 2021 — Mar 2024",
+    period: "Jun 2022 - Nov 2022",
+    title: "Content Moderator, TikTok",
+    org: "Teleperformance",
+    points: [
+      "Moderated TikTok live content, quickly spotting and banning policy violations.",
+      "Kept accuracy and efficiency high in a fast-paced call center environment.",
+      "Balanced speed, quality and regulatory compliance in every decision.",
+    ],
+    tags: ["Content policy", "Live moderation", "Compliance"],
+  },
+  {
+    period: "Aug 2021 - Mar 2024",
     title: "Soft & Hard Skills Trainer",
     org: "Freelance",
     points: [
@@ -90,7 +102,7 @@ export const experience: Role[] = [
     tags: ["Public speaking", "Leadership", "Training"],
   },
   {
-    period: "Sep 2020 — Jun 2022",
+    period: "Sep 2020 - Jun 2022",
     title: "Co-founder · Head of Strategic Marketing",
     org: "Westic",
     summary: "A collaborative platform connecting shippers and road-freight carriers to cut lost time and empty returns.",
@@ -103,7 +115,7 @@ export const experience: Role[] = [
     tags: ["Startup", "Fundraising", "Team leadership"],
   },
   {
-    period: "Sep 2020 — Jun 2021",
+    period: "Sep 2020 - Jun 2021",
     title: "International Relations Manager",
     org: "Tunivisions Foundation",
     points: [
@@ -114,9 +126,10 @@ export const experience: Role[] = [
     tags: ["International funding", "Expansion strategy"],
   },
   {
-    period: "Aug 2020 — Present",
+    period: "Aug 2020 - Present",
     title: "Community Manager & Graphic Designer",
     org: "Freelance · Ouva · Klink",
+    summary: "Ouva Delivery (Feb - Sep 2022), Klink (Aug - Oct 2020) and other freelance clients.",
     points: [
       "Created brand style guides, content and social media strategies.",
       "Grew social audiences and increased user engagement.",
@@ -151,7 +164,7 @@ export const expertise: Pillar[] = [
   },
 ];
 
-export const industries = ["Financial Services", "Forex & Trading", "Fintech", "Digital Financial Products"];
+export const industries = ["Financial Services", "Forex & Trading", "Crypto", "Fintech", "Digital Financial Products"];
 
 export const tools = [
   "Lark",
@@ -159,6 +172,7 @@ export const tools = [
   "Trello",
   "Jira",
   "Meta Business Suite",
+  "Meta Ads Manager",
   "Adobe Creative Suite",
   "Canva",
   "CapCut",
@@ -166,6 +180,9 @@ export const tools = [
   "Google Workspace",
   "Excel dashboards",
   "Power BI",
+  "ChatGPT",
+  "Claude",
+  "Gemini",
 ];
 
 export type LeadershipRole = { period: string; title: string; org: string; points: string[] };
@@ -173,19 +190,19 @@ export type LeadershipRole = { period: string; title: string; org: string; point
 // Student leadership & event organization (project manager CV).
 export const leadership: LeadershipRole[] = [
   {
-    period: "2019 — 2020",
+    period: "2019 - 2020",
     title: "General Secretary & Marketing Manager",
     org: "LIONS Club, Tunis Business School",
     points: ["Represented the club at national conferences", "Liaised with the international executive board", "Ran social media and visual materials"],
   },
   {
-    period: "2018 — 2020",
+    period: "2018 - 2020",
     title: "HR & Project Manager",
     org: "Tunivisions, Tunis Business School",
     points: ["Led HR and internal communication", "Organized “Fall Camp”, MoonWake Camp and the “Mediavision” conference", "Coordinated speakers, agendas and logistics"],
   },
   {
-    period: "2018 — 2019",
+    period: "2018 - 2019",
     title: "Project Manager",
     org: "Atlas Future Leaders, TBS Chapter",
     points: ["Organized the “White Edge 2.0” bootcamp, “MamaAfrica” conference and a job fair", "Coordinated partners, schedules and on-site execution"],
@@ -199,24 +216,24 @@ export const awards: Award[] = [
     competition: "Unilever Uniway International Competition",
     period: "2023",
     blurb: "A creative business competition for students across Arab countries.",
-    highlights: ["Finalist — Egypt, May 2023", "1st prize, national semi-final — Mar 2023", "Nominated for the semi-final — Feb 2023"],
+    highlights: ["Finalist in Egypt, May 2023", "1st prize at the national semi-final, Mar 2023", "Nominated for the semi-final, Feb 2023"],
   },
   {
     competition: "Hult Prize",
-    period: "2019 — 2021",
+    period: "2019 - 2021",
     blurb: "The global year-long social entrepreneurship competition for university students.",
     highlights: [
       "Digital Accelerator, Class of 2021",
-      "1st prize, Tunis Impact Summit — Mar 2021",
-      "1st prize, “Moona Insurance” — Dec 2020",
-      "Top 6 finalist — Dec 2019",
+      "1st prize at the Tunis Impact Summit, Mar 2021",
+      "1st prize for “Moona Insurance”, Dec 2020",
+      "Top 6 finalist, Dec 2019",
     ],
   },
   {
     competition: "JCI TBS Startup Peak",
     period: "2022",
     blurb: "A student competition fostering entrepreneurship and innovation around the SDGs.",
-    highlights: ["Finalist — Tunisia 2022"],
+    highlights: ["Finalist in Tunisia, 2022"],
   },
 ];
 
@@ -225,5 +242,5 @@ export const education = {
   school: "Tunis Business School",
   major: "Major in Business Analytics · Minor in International Business Economics",
   thesis:
-    "Thesis: “AI in Education — a data-driven approach to developing a machine-learning model for topic classification in Alexis’s lifecycle.”",
+    "Thesis: “AI in Education: A Data-Driven Approach to Developing a Machine Learning Model for Topic Classification in Alexis’s Lifecycle.”",
 };

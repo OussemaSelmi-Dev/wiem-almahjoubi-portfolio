@@ -8,7 +8,7 @@ const grotesk = Bricolage_Grotesque({ subsets: ["latin"], variable: "--ff-bricol
 const sans = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: `${profile.name} — ${profile.role}, ${profile.focus}`,
+  title: `${profile.name} | ${profile.role}, ${profile.focus}`,
   description: `${profile.tagline} ${profile.about}`,
 };
 
